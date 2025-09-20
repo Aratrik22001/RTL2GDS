@@ -37,6 +37,14 @@ $ git submodule update --init --recursive
 $ make
 $ sudo make install
 ```
+<p align="center"> 
+    <img src="https://github.com/Aratrik22001/RTL2GDS/blob/main/Week0/yosys.jpg"> 
+</p> 
+
+<div align="center"> 
+    Yosys Successfully Installed 
+</div>
+
 ---
 
 ### 2. <ins>**Iverilog - Verilog Simulator**</ins>
