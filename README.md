@@ -7,7 +7,7 @@ This program teaches us how to use **Open-Source Tools** to design a System-on-C
 
 ---
 
-## 📅 Week 0 — Setup & Tools
+## 📅 Weekwise Tasks
 
 | Task | Description | Status |
 |------|-------------|---------|
