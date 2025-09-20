@@ -52,6 +52,14 @@ $ sudo make install
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
+<p align="center"> 
+    <img src="https://github.com/Aratrik22001/RTL2GDS/blob/main/Week0/iverilog.jpg"> 
+</p> 
+
+<div align="center"> 
+    Iverilog Successfully Installed 
+</div>
+
 ---
 ### 3. <ins>**gtkwave - Waveform Viewer**</ins>
 ```bash
