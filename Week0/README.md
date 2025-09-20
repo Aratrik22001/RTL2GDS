@@ -1,6 +1,9 @@
 # VSD Hardware Design Program
 
-## Tool Setup
+## Week 0: Tool Setup
+
+Welcome to my **VLSI System Design (VSD) Program** repository!
+Installing the essential open-source tools for the software and setting up the development setup took up this week. The goal is to create a reliable and effective environment for doing design, simulation, and synthesis tasks.
 
 #### <ins>Follow the steps below to set up all the required tools:</ins>
 
