@@ -21,7 +21,7 @@ $ ./autorun.sh
 ---
 ### **Tools Installation**
 
-### <ins>**1. Yosys - RTL Synthesis Tool**</ins>
+### 1. <ins>**Yosys - RTL Synthesis Tool**</ins>
 ```bash
 $ sudo apt-get update
 $ git clone https://github.com/YosysHQ/yosys.git
@@ -39,13 +39,13 @@ $ sudo make install
 ```
 ---
 
-### <ins>**2. Iverilog - Verilog Simulator**</ins>
+### 2. <ins>**Iverilog - Verilog Simulator**</ins>
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
 ---
-### <ins>**3. gtkwave - Waveform Viewer**</ins>
+### 3. <ins>**gtkwave - Waveform Viewer**</ins>
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install gtkwave
