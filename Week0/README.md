@@ -19,7 +19,7 @@ $ cd /media/<username>/VBox_GAs_7.1.8/
 $ ./autorun.sh
 ```
 ---
-### **Tools Installation**
+## **Tools Installation**
 
 ### 1. <ins>**Yosys - RTL Synthesis Tool**</ins>
 ```bash
