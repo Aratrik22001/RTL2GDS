@@ -66,3 +66,16 @@ $ sudo apt-get install iverilog
 $ sudo apt-get update
 $ sudo apt-get install gtkwave
 ```
+<p align="center"> 
+    <img src="https://github.com/Aratrik22001/RTL2GDS/blob/main/Week0/gtkwave.jpg"> 
+</p>
+
+<p align="center"> 
+    <img src="https://github.com/Aratrik22001/RTL2GDS/blob/main/Week0/wv.jpg"> 
+</p>
+
+<div align="center"> 
+    GTKWave Successfully Installed 
+</div>
+
+
