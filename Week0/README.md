@@ -2,17 +2,15 @@
 
 ## Week 0: Tool Setup
 
-Welcome to my **VLSI System Design (VSD) Program** repository!
+Welcome to my **VLSI System Design (VSD) Program** repository.
 Installing the essential open-source tools for the software and setting up the development setup took up this week. The goal is to create a reliable and effective environment for doing design, simulation, and synthesis tasks.
-
-#### <ins>Follow the steps below to set up all the required tools:</ins>
 
 ### **Minimum System Configuration**
 - RAM: 6 GB
 - Storage: 50 GB free space
 - OS: Ubuntu 20.04 (or later)
 - CPU: 4 cores
-
+--- 
 ### **Adjusting Ubuntu display to full screen**
 ```bash
 $ sudo apt update
@@ -20,9 +18,10 @@ $ sudo apt install build-essential dkms linux-headers-$(uname -r)
 $ cd /media/<username>/VBox_GAs_7.1.8/
 $ ./autorun.sh
 ```
-### **TOOL CHECK**
+---
+### **Tools Installation**
 
-#### <ins>**Yosys**</ins>
+### <ins>**1. Yosys - RTL Synthesis Tool**</ins>
 ```bash
 $ sudo apt-get update
 $ git clone https://github.com/YosysHQ/yosys.git
@@ -38,14 +37,15 @@ $ git submodule update --init --recursive
 $ make
 $ sudo make install
 ```
+---
 
-#### <ins>**Iverilog**</ins>
+### <ins>**2. Iverilog - Verilog Simulator**</ins>
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
-
-#### <ins>**gtkwave**</ins>
+---
+### <ins>**3. gtkwave - Waveform Viewer**</ins>
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install gtkwave
