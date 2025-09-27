@@ -58,4 +58,15 @@ iverilog good_mux.v tb_good_mux.v
 ```
 Iverilog creates a **a.out** file executing which dumps the vcd file to be viewed by the waveform viewer.
 
+---
+
 ## GTKWave
+This is used to generate the waveforms and display in visual format.
+
+Command to view the vcd file in gtkwave 
+```
+gtkwave tb_good_mux.vcd
+```
+The waveform of the good_mux.v as shown in gtkwave:
+<img width="993" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/2f27e5f2-6c6c-491a-b6be-8c8974ed1303">
+
