@@ -5,18 +5,18 @@
 This repository contains weekly tasks that track my progress **week by week**.  
 This program teaches us how to use **Open-Source Tools** to design a System-on-Chip (SoC) from basic RTL to GDS.
 
----
+--- 
 
 ## 📅 Weekwise Tasks
 
 | Task | Day | Description | Status |
 |------|-----|-------------|--------|
 | [**Week 0**](Week0/README.md) | - | 🛠️ [Tools Installation](Week0/README.md) — Installed **Yosys**, **Iverilog**, and **gtkWave** | ✅ Done |
-| **Week1** | [Day1](Week1/Day1/README.md) | Task for Day1 description | ✅ Done |
-|           | [Day2](Week1/Day2/README.md) | Task for Day2 description | ✅ Done |
-|           | [Day3](Week1/Day3/README.md) | Task for Day3 description | ✅ Done |
-|           | [Day4](Week1/Day4/README.md) | Task for Day4 description | ✅ Done |
-|           | [Day5](Week1/Day5/README.md) | Task for Day5 description | ✅ Done |
+| **Week1** | [Day1](Week1/Day1/README.md) | 📚 [Introduction](Week1/Day1/README.md) - **Verilog RTL Design** and **Synthesis** | ✅ Done |
+|           | [Day2](Week1/Day2/README.md) | 🏛️ [Libraries and Approach](Week1/Day2/README.md) - **Timing Libraries** and **Synthesis Approaches** | ✅ Done |
+|           | [Day3](Week1/Day3/README.md) | 🔧 [Optimization](Week1/Day3/README.md) - **Combinational** and **Sequential Optimization** | ✅ Done |
+|           | [Day4](Week1/Day4/README.md) | 🔬 [Simulation](Week1/Day4/README.md) - **Gate-Level Simulation (GLS)** and **Synthesis Simulation Mismatches**| ✅ Done |
+|           | [Day5](Week1/Day5/README.md) | ⚙️ [Optimization in Synthesis](Week1/Day5/README.md) - **If, Case Construct**, **For Loop** and **For Generate** | ✅ Done |
 
 ---
 
