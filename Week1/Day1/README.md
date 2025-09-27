@@ -96,3 +96,13 @@ $ write_verilog -noattr ../netlist_file/good_mux_netlist.v		# Write the Netlist 
 <img width="993" src="https://github.com/Aratrik22001/RTL2GDS/blob/main/Week1/Day1/good_mux_stats.jpg?raw=true">
 <img width="993" src="https://github.com/Aratrik22001/RTL2GDS/blob/main/Week1/Day1/good_mux_netlist.jpg?raw=true">
 <img width="993" src="https://github.com/Aratrik22001/RTL2GDS/blob/main/Week1/Day1/good_mux.jpg?raw=true">
+
+[**good_mux_netlist.v**](https://github.com/Aratrik22001/RTL2GDS/blob/main/Week1/Day1/good_mux_netlist.v) is the generated netlist file.
+
+---
+
+## Key Learnings
+- ***Simulator***: Utilized Icarus Verilog (iverilog) for functional verification, demonstrating the ability to effectively simulate digital designs.
+- ***Design***: Developed behavioral Verilog representations, showcasing proficiency in writing clean and structured RTL code.
+- ***Testbench***: Built a verification environment capable of generating comprehensive test scenarios for design validation.
+- ***Synthesis***: Applied Yosys to perform RTL-to-gate-level conversion, successfully synthesizing the design into a gate-level netlist.
