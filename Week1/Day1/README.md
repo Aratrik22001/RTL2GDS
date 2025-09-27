@@ -68,5 +68,5 @@ Command to view the vcd file in gtkwave
 gtkwave tb_good_mux.vcd
 ```
 The waveform of the good_mux.v as shown in gtkwave:
-<img width="993" src="https://github.com/sukanyasmeher/sfal-vsd/assets/166566124/2f27e5f2-6c6c-491a-b6be-8c8974ed1303">
+<img width="993" src="https://github.com/Aratrik22001/RTL2GDS/blob/main/Week1/Day1/gtkwave_mux.jpg?raw=true">
 
