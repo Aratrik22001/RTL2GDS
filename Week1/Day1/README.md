@@ -51,4 +51,11 @@ always #55 i1 = ~i1;
 endmodule
 ```
 
+Command to run the design and testbench
+```
+iverilog good_mux.v tb_good_mux.v
+./a.out
+```
+Iverilog creates a **a.out** file executing which dumps the vcd file to be viewed by the waveform viewer.
+
 ## GTKWave
