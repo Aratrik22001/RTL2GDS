@@ -12,7 +12,11 @@ This program teaches us how to use **Open-Source Tools** to design a System-on-C
 | Task | Day | Description | Status |
 |------|-----|-------------|--------|
 | [**Week 0**](Week0/README.md) | - | 🛠️ [Tools Installation](Week0/README.md) — Installed **Yosys**, **Iverilog**, and **gtkWave** | ✅ Done |
-| **Week 1** | Day 1 | Task for Day1 description | ✅ Done |
+| **Week1** | [Day1](Week1/Day1/README.md) | Task for Day1 description | ✅ Done |
+|           | [Day2](Week1/Day2/README.md) | Task for Day2 description | ✅ Done |
+|           | [Day3](Week1/Day3/README.md) | Task for Day3 description | ✅ Done |
+|           | [Day4](Week1/Day4/README.md) | Task for Day4 description | ✅ Done |
+|           | [Day5](Week1/Day5/README.md) | Task for Day5 description | ✅ Done |
 
 ---
 
