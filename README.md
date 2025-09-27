@@ -9,9 +9,10 @@ This program teaches us how to use **Open-Source Tools** to design a System-on-C
 
 ## 📅 Weekwise Tasks
 
-| Task | Description | Status |
-|------|-------------|---------|
-| [**Week 0**](Week0/README.md) | 🛠️ [Tools Installation](Week0/README.md) — Installed **Yosys**, **Iverilog**, and **gtkWave** | ✅ Done |
+| Task | Day | Description | Status |
+|------|-----|-------------|--------|
+| [**Week 0**](Week0/README.md) | - | 🛠️ [Tools Installation](Week0/README.md) — Installed **Yosys**, **Iverilog**, and **gtkWave** | ✅ Done |
+| **Week 1** | Day 1 | Task for Day1 description | ✅ Done |
 
 ---
 
