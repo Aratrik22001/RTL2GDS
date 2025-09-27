@@ -80,4 +80,39 @@ The waveform of the good_mux.v as shown in gtkwave:
 
 The synthesizer converts the Register-Transfer Level (RTL) Code to Netlist, which is the representation of the design using standard cells from the technology library used to synthesize. To verify proper fucntionality the same testbench is used for the Synthesized Netlist.
 
+### Lab with Yosys
+
+```shell
+$ yosys 														// Start Yosys
+$ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib 	// Read the Library File
+$ read_verilog good_mux.v										// Read the Verilog File
+$ synth -top good_mux											// Synthesize the Design
+$ abc -liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib  	// Extracting the Netlist
+$ show															// View the netlist using Dot Viewer
+$ write_verilog -noattr ../netlist_file/good_mux_netlist.v		// Write the Netlist for further use
+```
+2. Read the Library File
+```shell
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+3. Read the Verilog File
+```shell
+read_verilog good_mux.v
+```
+4. Synthesize the Design
+```shell
+synth -top good_mux
+```
+5. Extract the Netlist
+```shell
+abc -liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+6. View the netlist using Dot Viewer
+```shell
+show
+```
+7. Write the Netlist for futher use
+```shell
+write_verilog -noattr ../netlist_file/good_mux_netlist.v
+```
 
