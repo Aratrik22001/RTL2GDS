@@ -50,6 +50,12 @@ always #10 i0 = ~i0;
 always #55 i1 = ~i1;
 endmodule
 ```
+The testbench instantiates the multiplexer and applies the following test vectors:
+- `sel` toggles every 75 time units
+- `i0` toggles every 10 time units  
+- `i1` toggles every 55 time units
+Total runtime of the simulation is 300ns
+
 
 Command to run the design and testbench
 ```
@@ -57,8 +63,6 @@ iverilog good_mux.v tb_good_mux.v
 ./a.out
 ```
 Iverilog creates a **a.out** file executing which dumps the vcd file to be viewed by the waveform viewer.
-
----
 
 ## GTKWave
 This is used to generate the waveforms and display in visual format.
@@ -69,4 +73,11 @@ gtkwave tb_good_mux.vcd
 ```
 The waveform of the good_mux.v as shown in gtkwave:
 <img width="993" src="https://github.com/Aratrik22001/RTL2GDS/blob/main/Week1/Day1/gtkwave_mux.jpg?raw=true">
+
+---
+
+## Synthesizing using Yosys
+
+The synthesizer converts the Register-Transfer Level (RTL) Code to Netlist, which is the representation of the design using standard cells from the technology library used to synthesize. To verify proper fucntionality the same testbench is used for the Synthesized Netlist.
+
 
